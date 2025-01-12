@@ -1,4 +1,5 @@
 # Part 2 Coding a layer
+# A layer is composed of multiple neurons. this is a layer made up of 3 nerons
 inputs = [1, 2, 3, 2.5]
 weights1 = [0.2, 0.8, -0.5, 1.0]
 weights2 = [0.5, -0.91, 0.26, -0.5]
