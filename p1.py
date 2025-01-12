@@ -1,3 +1,4 @@
+# Part 1 Intro and Neuron code
 inputs = [1.2, 5.1, 2.1]
 weights = [3.1, 2.1, 8.7]
 bias = 3
