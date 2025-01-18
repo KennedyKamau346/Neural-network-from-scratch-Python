@@ -4,3 +4,6 @@ The tutorials are from https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw
 and the book from nnfs.io
 It uses NumPy and no other libraries.
 Each part is continuously building up on the knowldge from the previous part(s).
+
+Requirements
+nnfs package for the dataset from part 5
