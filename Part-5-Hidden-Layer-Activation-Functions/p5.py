@@ -1,3 +1,4 @@
+# this shows the rectified linear unit activation function
 import numpy as np
 import nnfs
 from nnfs.datasets import spiral_data
@@ -14,15 +15,15 @@ inputs = [0, 2, -1, 3.3, -2.7, 1.1, 2.2, -100]
 outputs = []
 
 # ReLU activation function. For input > 0 output is input but for input 0 or negative output will be 0 
-for i in inputs:
+for i in inputs:                     // one way to do it
     if i > 0:
         output.append(i)
     elif i <= 0:
         output.append(0)
 
-print(output)
-outputs = []
-for i in inputs:
+print(output)                        
+outputs = []                           
+for i in inputs:                        // another way to do it
     output.append(max(0, i))
 
 print(outputs)
